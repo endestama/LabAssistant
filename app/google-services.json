@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "835997988776",
+    "firebase_url": "https://ta-rico-baim-da504-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ta-rico-baim-da504",
+    "storage_bucket": "ta-rico-baim-da504.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835997988776:android:a47b4d51e2d05470600f9d",
+        "android_client_info": {
+          "package_name": "com.example.labassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835997988776-lvri7tvbj384luqgjhkm6nqbfkfmcqv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAumL16grpZYboxH3ozvxfIkYA1aseNpHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835997988776-lvri7tvbj384luqgjhkm6nqbfkfmcqv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

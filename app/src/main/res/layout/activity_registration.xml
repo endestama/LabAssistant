@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/form_register"
+    tools:context=".RegistrationActivity">
+
+    <EditText
+        android:id="@+id/regis_email"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:hint="Enter your Email"
+        android:textColor="#F7D716"
+        android:textColorHint="#F7D716"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <EditText
+        android:id="@+id/passwd"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="44dp"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:textColor="#F7D716"
+        android:textColorHint="#F7D716"
+        android:textColorLink="#FF03DAC5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regis_email" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F7D716"
+        android:text="Register"
+        android:textColor="#293462"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

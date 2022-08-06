@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_semester"
+    tools:context=".SemesterActivity">
+
+    <Button
+        android:id="@+id/semester_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F7D716"
+        android:text="Pilih"
+        android:textColor="#293462"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725" />
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.520">
+
+        <RadioGroup
+            android:id="@+id/RadioSemester"
+            android:layout_width="320dp"
+            android:layout_height="300dp">
+
+            <RadioButton
+                android:id="@+id/srad1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Semester 1"
+                android:textColor="#F7D716" />
+
+            <RadioButton
+                android:id="@+id/srad2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Semester 2"
+                android:textColor="#F7D716" />
+
+            <RadioButton
+                android:id="@+id/srad3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Semester 3"
+                android:textColor="#F7D716" />
+
+            <RadioButton
+                android:id="@+id/srad4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Semester 4"
+                android:textColor="#F7D716" />
+
+            <RadioButton
+                android:id="@+id/srad5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Semester 5"
+                android:textColor="#F7D716" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

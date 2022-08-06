@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LabAssistant</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="qr_code">qr_code</string>
+    <string name="enter_your_info">Enter your info</string>
+    <string name="generate_qr_code">Generate QR Code</string>
+    <string name="jobsheet">jobsheet</string>
+    <string name="matkul">matkul</string>
+    <string name="pinjam">pinjam</string>
+    <string name="pengembalian">pengembalian</string>
+    <string name="ok">OK</string>
+</resources>
