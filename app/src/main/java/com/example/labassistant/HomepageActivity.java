@@ -10,8 +10,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.labassistant.helper.Session;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -20,22 +22,25 @@ import com.google.firebase.database.ValueEventListener;
 
 public class HomepageActivity extends AppCompatActivity {
     // Inisialisasi semua item yang tertera
-    protected static String semester,smt,matkul,matkulId, jobsheet,jobsheetId;
+    protected static String semester,smt,matkul,matkulId, jobsheet, jobsheetId;
     private ImageView pinjam, kembali;
+    private TextView username;
     private Button btnHis;
     private Integer stats;
     protected static Integer status;
+    Session session = Session.getSession();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
-
         // Initialising all views through id defined above
         // Inisialisasi semua tampilan melalui id yang ditentukan di atas
         pinjam = findViewById(R.id.pinjam_img);
         kembali = findViewById(R.id.kembali_img);
         btnHis = findViewById(R.id.btn_history);
+        username = findViewById(R.id.tv_username);
+        username.setText(String.format("Welcome, %s", session.getEmail()));
 
         // Mengambil data dari realtime database firebase
         FirebaseDatabase database = FirebaseDatabase.getInstance();

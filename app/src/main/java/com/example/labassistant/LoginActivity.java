@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.example.labassistant.helper.Session;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -112,9 +113,11 @@ public class LoginActivity extends AppCompatActivity {
                                             "Login Success!",
                                             Toast.LENGTH_LONG)
                                             .show();
-
                                     // Hide the progress bar
                                     progressBar.setVisibility(View.GONE);
+
+                                    Session session = Session.getSession();
+                                    session.setEmail(email);
 
                                     // If sign-in is successful intent to home activity
                                     // Jika login berhasil beralih ke homepage
