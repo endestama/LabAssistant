@@ -36,7 +36,7 @@ public class RegistrationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_registration);
 
         // Taking FirebaseAuth instance
-        // Mengambil data dari firebase authentication
+        // Mengambil sampel dari firebase authentication
         mAuth = FirebaseAuth.getInstance();
 
         // Initialising all views through id defined above
@@ -73,14 +73,14 @@ public class RegistrationActivity extends AppCompatActivity {
         // Validasi data email dan password
         if (TextUtils.isEmpty(email)) {
             Toast.makeText(getApplicationContext(),
-                    "Please Enter Email!",
+                    "Tolong Masukkan Email!",
                     Toast.LENGTH_LONG)
                     .show();
             return;
         }
         if (TextUtils.isEmpty(password)) {
             Toast.makeText(getApplicationContext(),
-                    "Please Enter Password!",
+                    "Tolong Masukkan Password!",
                     Toast.LENGTH_LONG)
                     .show();
             return;
@@ -97,7 +97,7 @@ public class RegistrationActivity extends AppCompatActivity {
                     {
                         if (task.isSuccessful()) {
                             Toast.makeText(getApplicationContext(),
-                                    "Registration Success",
+                                    "Pendaftaran Berhasil",
                                     Toast.LENGTH_LONG)
                                     .show();
 
@@ -125,8 +125,8 @@ public class RegistrationActivity extends AppCompatActivity {
                             // Kondisi ketika gagal login
                             Toast.makeText(
                                     getApplicationContext(),
-                                    "Registration Failed!"
-                                            + " Please Try Again Later!",
+                                    "Pendaftaran Gagal"
+                                            + " Silahkan Coba Lagi!",
                                     Toast.LENGTH_LONG)
                                     .show();
 

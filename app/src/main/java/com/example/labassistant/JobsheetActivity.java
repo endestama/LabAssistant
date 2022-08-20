@@ -45,14 +45,14 @@ public class JobsheetActivity extends AppCompatActivity {
         RadioButton job7 = (RadioButton)findViewById(R.id.jrad7);
         RadioButton job8 = (RadioButton)findViewById(R.id.jrad8);
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference ref1 = database.getReference("/sample/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/1/jobsheet");
-        DatabaseReference ref2 = database.getReference("/sample/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/2/jobsheet");
-        DatabaseReference ref3 = database.getReference("/sample/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/3/jobsheet");
-        DatabaseReference ref4 = database.getReference("/sample/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/4/jobsheet");
-        DatabaseReference ref5 = database.getReference("/sample/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/5/jobsheet");
-        DatabaseReference ref6 = database.getReference("/sample/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/6/jobsheet");
-        DatabaseReference ref7 = database.getReference("/sample/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/7/jobsheet");
-        DatabaseReference ref8 = database.getReference("/sample/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/8/jobsheet");
+        DatabaseReference ref1 = database.getReference("/master/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/1/jobsheet");
+        DatabaseReference ref2 = database.getReference("/master/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/2/jobsheet");
+        DatabaseReference ref3 = database.getReference("/master/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/3/jobsheet");
+        DatabaseReference ref4 = database.getReference("/master/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/4/jobsheet");
+        DatabaseReference ref5 = database.getReference("/master/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/5/jobsheet");
+        DatabaseReference ref6 = database.getReference("/master/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/6/jobsheet");
+        DatabaseReference ref7 = database.getReference("/master/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/7/jobsheet");
+        DatabaseReference ref8 = database.getReference("/master/semester/"+semester+"/matkul/"+matkulId+"/jobsheet/8/jobsheet");
 
         radioGroup.clearCheck();
         // Mengirim data jobsheet ke database yang dipilih pada radio button

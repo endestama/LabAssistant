@@ -85,7 +85,7 @@ public class LoginActivity extends AppCompatActivity {
         // Validasi email dan password
         if (TextUtils.isEmpty(email)) {
             Toast.makeText(getApplicationContext(),
-                    "Please Enter Email!",
+                    "Tolong Masukkan Email!",
                     Toast.LENGTH_LONG)
                     .show();
             return;
@@ -93,7 +93,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if (TextUtils.isEmpty(password)) {
             Toast.makeText(getApplicationContext(),
-                    "Please Enter Password!",
+                    "Tolong Masukkan Password!",
                     Toast.LENGTH_LONG)
                     .show();
             return;
@@ -110,14 +110,14 @@ public class LoginActivity extends AppCompatActivity {
                             {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(getApplicationContext(),
-                                            "Login Success!",
+                                            "Login Berhasil",
                                             Toast.LENGTH_LONG)
                                             .show();
                                     // Hide the progress bar
                                     progressBar.setVisibility(View.GONE);
 
                                     Session session = Session.getSession();
-                                    session.setEmail(email);
+                                    session.setUsernm(usernm);
 
                                     // If sign-in is successful intent to home activity
                                     // Jika login berhasil beralih ke homepage
@@ -132,7 +132,7 @@ public class LoginActivity extends AppCompatActivity {
                                     // Sign-in failed
                                     // Kondisi gagal login
                                     Toast.makeText(getApplicationContext(),
-                                            "Login Failed!",
+                                            "Login Gagal",
                                             Toast.LENGTH_LONG)
                                             .show();
 

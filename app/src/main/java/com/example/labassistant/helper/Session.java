@@ -1,9 +1,9 @@
 package com.example.labassistant.helper;
 
 // Class singleton
-public final class Session {
+public class Session {
     private static Session session;
-    private String email;
+    private String usernm;
 
     public Session() {
     }
@@ -15,12 +15,12 @@ public final class Session {
         return session;
     }
 
-    public String getEmail() {
-        return email;
+    public String getUsernm() {
+        return usernm;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setUsernm(String usernm) {
+        this.usernm = usernm;
     }
 
 }

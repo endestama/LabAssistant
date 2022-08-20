@@ -36,7 +36,7 @@ public class BarangActivity extends AppCompatActivity {
         btnNext4 = findViewById(R.id.barang_btn);
         recyclerView = findViewById(R.id.toolList_rv);
 
-        mbase = FirebaseDatabase.getInstance().getReference("pointer2").child(smt).child(matkul).child(jobsheet).child("tools");
+        mbase = FirebaseDatabase.getInstance().getReference("pointer").child(smt).child(matkul).child(jobsheet).child("tools");
 
         recyclerView.setLayoutManager(
                 new LinearLayoutManager(this));

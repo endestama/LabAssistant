@@ -43,11 +43,11 @@ public class MatkulActivity extends AppCompatActivity {
         RadioButton mat4 = (RadioButton)findViewById(R.id.mrad4);
         RadioButton mat5 = (RadioButton)findViewById(R.id.mrad5);
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference ref1 = database.getReference("/sample/semester/"+semester+"/matkul/1/matkul");
-        DatabaseReference ref2 = database.getReference("/sample/semester/"+semester+"/matkul/2/matkul");
-        DatabaseReference ref3 = database.getReference("/sample/semester/"+semester+"/matkul/3/matkul");
-        DatabaseReference ref4 = database.getReference("/sample/semester/"+semester+"/matkul/4/matkul");
-        DatabaseReference ref5 = database.getReference("/sample/semester/"+semester+"/matkul/5/matkul");
+        DatabaseReference ref1 = database.getReference("/master/semester/"+semester+"/matkul/1/matkul");
+        DatabaseReference ref2 = database.getReference("/master/semester/"+semester+"/matkul/2/matkul");
+        DatabaseReference ref3 = database.getReference("/master/semester/"+semester+"/matkul/3/matkul");
+        DatabaseReference ref4 = database.getReference("/master/semester/"+semester+"/matkul/4/matkul");
+        DatabaseReference ref5 = database.getReference("/master/semester/"+semester+"/matkul/5/matkul");
 
         radioGroup.clearCheck();
         // Mengirim data matkul ke database yang dipilih pada radio button

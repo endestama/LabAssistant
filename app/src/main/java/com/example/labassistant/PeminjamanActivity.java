@@ -67,7 +67,7 @@ public class PeminjamanActivity extends AppCompatActivity {
         pengembalian.setText(pinjam2);
 
 
-        mbase = FirebaseDatabase.getInstance().getReference("pointer2").child(smt).child(matkul).child(jobsheet).child("tools");
+        mbase = FirebaseDatabase.getInstance().getReference("pointer").child(smt).child(matkul).child(jobsheet).child("tools");
 
         // Membuat ampilan recyclerview
         recyclerView.setLayoutManager(

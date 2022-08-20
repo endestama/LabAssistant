@@ -26,6 +26,7 @@ public class HomepageActivity extends AppCompatActivity {
     private ImageView pinjam, kembali;
     private TextView username;
     private Button btnHis;
+    private Button btnOut;
     private Integer stats;
     protected static Integer status;
     Session session = Session.getSession();
@@ -39,8 +40,9 @@ public class HomepageActivity extends AppCompatActivity {
         pinjam = findViewById(R.id.pinjam_img);
         kembali = findViewById(R.id.kembali_img);
         btnHis = findViewById(R.id.btn_history);
+        btnOut = findViewById(R.id.btn_logout);
         username = findViewById(R.id.tv_username);
-        username.setText(String.format("Welcome, %s", session.getEmail()));
+        username.setText(String.format("Selamat Datang %s", session.getUsernm()));
 
         // Mengambil data dari realtime database firebase
         FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -64,6 +66,15 @@ public class HomepageActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(HomepageActivity.this,HistoryActivity.class);
+                startActivity(i);
+            }
+        });
+
+        // Tombol keluar
+        btnOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(HomepageActivity.this,LoginActivity.class);
                 startActivity(i);
             }
         });

@@ -7,9 +7,9 @@
         <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/drawable/dot_1_24.xml" value="0.1485" />
         <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1485" />
         <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/activity_barang.xml" value="0.13333333333333333" />
-        <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/activity_history.xml" value="0.1" />
+        <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/activity_history.xml" value="0.13333333333333333" />
         <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/activity_homepage.xml" value="0.13333333333333333" />
-        <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/activity_jobsheet.xml" value="0.13333333333333333" />
+        <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/activity_jobsheet.xml" value="0.22" />
         <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/activity_login.xml" value="0.13333333333333333" />
         <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/activity_main.xml" value="0.11655405405405406" />
         <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/activity_matkul.xml" value="0.13333333333333333" />
@@ -17,11 +17,27 @@
         <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/activity_qr.xml" value="0.13333333333333333" />
         <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/activity_qrreturn.xml" value="0.13333333333333333" />
         <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/activity_registration.xml" value="0.13333333333333333" />
-        <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/activity_semester.xml" value="0.1" />
+        <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/activity_semester.xml" value="0.13333333333333333" />
         <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/item.xml" value="0.1" />
         <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/item_history.xml" value="0.13333333333333333" />
         <entry key="..\:/Application Projects/LabAssistant/app/src/main/res/layout/new_item.xml" value="0.1" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_barang.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_history.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_homepage.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_jobsheet.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_login.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_main.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_matkul.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_peminjaman.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_qr.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_qrreturn.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_registration.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_semester.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_splash_screen.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/item.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/item_history.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/Azzahra Dinda S/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/new_item.xml" value="0.11655405405405406" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_homepage.xml" value="0.33" />
         <entry key="..\:/Users/berli/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_barang.xml" value="0.33" />
         <entry key="..\:/Users/berli/AndroidStudioProjects/LabAssistant/app/src/main/res/layout/activity_homepage.xml" value="0.1" />
